@@ -1,0 +1,28 @@
+.icon-container {
+  position: relative;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.fa-bell, .fa-bell-o {
+  font-size: 40px !important;
+}
+
+.count {
+  text-align: center;
+    width: 19px;
+    height: 19px;
+    float: right;
+    position: absolute;
+    z-index: 1000;
+    background-color: darkgray;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: -15px;
+    font-size: 12px;
+    border: 2px solid white
+}

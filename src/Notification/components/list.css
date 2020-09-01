@@ -1,0 +1,78 @@
+.list {
+  width: 25%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  max-height: 400px;
+  overflow-y: scroll;
+  position: absolute;
+}
+
+.notification-header {
+  color: gray;
+  padding: 5px;
+  border: 2px solid aquamarine;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.text-r {
+  text-align: right;
+}
+
+.item {
+  border: 1px solid aquamarine;
+  background: ghostwhite;
+  padding-left: 5px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.viewed {
+  background: white;
+}
+.item:hover {
+  cursor: pointer;
+  background: snow;
+}
+
+.active-window {
+  text-align: center;
+  margin: 100px;
+}
+
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: grey;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
